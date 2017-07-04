@@ -15,6 +15,7 @@ public class HelloWorld {
         log.info("Start getting welcome message");
         String message = getMessage(getKey(calendar));
         log.info("Success");
+
         return message;
     }
 
