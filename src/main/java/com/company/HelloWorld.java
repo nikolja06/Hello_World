@@ -59,9 +59,12 @@ public class HelloWorld {
 
     public static ResourceBundle getResourceBundle(){
         ResourceBundle resourceBundle;
+        log.info("Start parse ResourceBundle by locale = " + Locale.getDefault());
         try {
             resourceBundle = ResourceBundle.getBundle("ResourceMessage", Locale.getDefault());
+            log.info("Success!");
         }catch (NullPointerException | MissingResourceException e){
+            log.error("ResourceBundle not found by locale = " + Locale.getDefault() + "\nwill return message for default locale = en_US");
             Locale.setDefault(new Locale("en", "US"));
             resourceBundle = ResourceBundle.getBundle("ResourceMessage", Locale.getDefault());
         }
