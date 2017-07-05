@@ -96,4 +96,13 @@ public class HelloWorldTest {
         resourceBundle = ResourceBundle.getBundle("ResourceMessage", new Locale("en", "US"));
         Assert.assertEquals(resourceBundle.getString("evening"), HelloWorld.getMessage("evening"));
     }
+
+    @Test
+    public void testNotExistLocale(){
+        Locale.setDefault(new Locale("en","GB"));
+        calendar.set(Calendar.HOUR, 11);
+        calendar.set(Calendar.AM_PM, 1);
+        resourceBundle = HelloWorld.getResourceBundle();
+        Assert.assertEquals("Good evening, World!!!", resourceBundle.getString("evening"));
+    }
 }

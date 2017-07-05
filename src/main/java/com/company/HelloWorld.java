@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import java.io.UnsupportedEncodingException;
 import java.util.Calendar;
 import java.util.Locale;
+import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
 public class HelloWorld {
@@ -46,7 +47,7 @@ public class HelloWorld {
         log.info("Start parse message by key = " + key);
         String result = null;
         try {
-            ResourceBundle resourceBundle = ResourceBundle.getBundle("ResourceMessage", Locale.getDefault());
+            ResourceBundle resourceBundle = getResourceBundle();
             String message = resourceBundle.getString(key);
             result = new String(message.getBytes("ISO-8859-1"), "UTF-8");
             log.info("Success!");
@@ -54,5 +55,16 @@ public class HelloWorld {
             log.error(e.getMessage());
         }
         return result;
+    }
+
+    public static ResourceBundle getResourceBundle(){
+        ResourceBundle resourceBundle;
+        try {
+            resourceBundle = ResourceBundle.getBundle("ResourceMessage", Locale.getDefault());
+        }catch (NullPointerException | MissingResourceException e){
+            Locale.setDefault(new Locale("en", "US"));
+            resourceBundle = ResourceBundle.getBundle("ResourceMessage", Locale.getDefault());
+        }
+        return resourceBundle;
     }
 }
