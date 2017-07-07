@@ -1,0 +1,326 @@
+2017-07-07 14:18:08 INFO  Main:13 - Start program
+2017-07-07 14:18:08 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:18:08 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 14:18:08 EEST 2017
+2017-07-07 14:18:08 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:18:08 INFO  HelloWorld:44 - Start parse message by key = day
+2017-07-07 14:18:08 INFO  HelloWorld:59 - Start parse ResourceBundle by locale = ru_RU
+2017-07-07 14:18:08 INFO  HelloWorld:62 - Success!
+2017-07-07 14:18:08 INFO  HelloWorld:50 - Success!
+2017-07-07 14:18:08 INFO  HelloWorld:15 - Success
+2017-07-07 14:18:08 INFO  Main:18 - Finish program
+
+2017-07-07 14:45:55 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 19:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: evening
+2017-07-07 14:45:55 INFO  HelloWorld:44 - Start parse message by key = evening
+2017-07-07 14:45:55 INFO  HelloWorld:54 - Success!
+2017-07-07 14:45:55 INFO  HelloWorld:15 - Success
+2017-07-07 14:45:55 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 23:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: night
+2017-07-07 14:45:55 INFO  HelloWorld:44 - Start parse message by key = night
+2017-07-07 14:45:55 INFO  HelloWorld:54 - Success!
+2017-07-07 14:45:55 INFO  HelloWorld:15 - Success
+2017-07-07 14:45:55 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 11:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:45:55 INFO  HelloWorld:44 - Start parse message by key = day
+2017-07-07 14:45:55 INFO  HelloWorld:54 - Success!
+2017-07-07 14:45:55 INFO  HelloWorld:15 - Success
+2017-07-07 14:45:55 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 22:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: evening
+2017-07-07 14:45:55 INFO  HelloWorld:44 - Start parse message by key = evening
+2017-07-07 14:45:55 INFO  HelloWorld:54 - Success!
+2017-07-07 14:45:55 INFO  HelloWorld:15 - Success
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 11:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 12:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:45:55 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 23:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: night
+2017-07-07 14:45:55 INFO  HelloWorld:44 - Start parse message by key = night
+2017-07-07 14:45:55 INFO  HelloWorld:54 - Success!
+2017-07-07 14:45:55 INFO  HelloWorld:15 - Success
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: morning
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 09:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: morning
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 06:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: morning
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: night
+2017-07-07 14:45:55 INFO  HelloWorld:44 - Start parse message by key = evening
+2017-07-07 14:45:55 INFO  HelloWorld:54 - Success!
+2017-07-07 14:45:55 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 18:45:55 EEST 2017
+2017-07-07 14:45:55 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:47:14 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 19:47:13 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: evening
+2017-07-07 14:47:14 INFO  HelloWorld:44 - Start parse message by key = evening
+2017-07-07 14:47:14 INFO  HelloWorld:54 - Success!
+2017-07-07 14:47:14 INFO  HelloWorld:15 - Success
+2017-07-07 14:47:14 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 23:47:13 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: night
+2017-07-07 14:47:14 INFO  HelloWorld:44 - Start parse message by key = night
+2017-07-07 14:47:14 INFO  HelloWorld:54 - Success!
+2017-07-07 14:47:14 INFO  HelloWorld:15 - Success
+2017-07-07 14:47:14 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 11:47:13 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:47:14 INFO  HelloWorld:44 - Start parse message by key = day
+2017-07-07 14:47:14 INFO  HelloWorld:54 - Success!
+2017-07-07 14:47:14 INFO  HelloWorld:15 - Success
+2017-07-07 14:47:14 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 22:47:13 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: evening
+2017-07-07 14:47:14 INFO  HelloWorld:44 - Start parse message by key = evening
+2017-07-07 14:47:14 INFO  HelloWorld:54 - Success!
+2017-07-07 14:47:14 INFO  HelloWorld:15 - Success
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 11:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 12:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:47:14 INFO  HelloWorld:13 - Start getting welcome message
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 23:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: night
+2017-07-07 14:47:14 INFO  HelloWorld:44 - Start parse message by key = night
+2017-07-07 14:47:14 INFO  HelloWorld:54 - Success!
+2017-07-07 14:47:14 INFO  HelloWorld:15 - Success
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: morning
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 09:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: day
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: morning
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 06:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: morning
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: night
+2017-07-07 14:47:14 INFO  HelloWorld:44 - Start parse message by key = evening
+2017-07-07 14:47:14 INFO  HelloWorld:54 - Success!
+2017-07-07 14:47:14 INFO  HelloWorld:21 - Start parse key depends on time:
+ input data (time): Fri Jul 07 18:47:14 EEST 2017
+2017-07-07 14:47:14 INFO  HelloWorld:39 - Result key: day
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 20:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 19:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 11:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 12:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 09:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 22:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 06:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 23:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:13:32 INFO  HelloWorld:46 - Start parse message by key = evening
+2017-07-07 15:13:32 INFO  HelloWorld:61 - Start getting resource bundle by locale = en_US
+2017-07-07 15:13:32 INFO  HelloWorld:63 - Success!
+2017-07-07 15:13:32 INFO  HelloWorld:50 - Start encoding received message
+2017-07-07 15:13:32 INFO  HelloWorld:52 - Success!
+2017-07-07 15:13:32 INFO  HelloWorld:56 - Success!
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 05:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:13:32 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 18:13:32 EEST 2017
+2017-07-07 15:13:32 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 20:14:21 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 19:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 11:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 12:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 09:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 22:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 06:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 23:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:14:22 INFO  HelloWorld:46 - Start parse message by key = evening
+2017-07-07 15:14:22 INFO  HelloWorld:61 - Start getting resource bundle by locale = en_US
+2017-07-07 15:14:22 INFO  HelloWorld:63 - Success!
+2017-07-07 15:14:22 INFO  HelloWorld:50 - Start encoding received message
+2017-07-07 15:14:22 INFO  HelloWorld:52 - Success!
+2017-07-07 15:14:22 INFO  HelloWorld:56 - Success!
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 05:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:14:22 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 18:14:22 EEST 2017
+2017-07-07 15:14:22 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 20:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 19:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 11:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 12:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 09:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 22:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 06:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 23:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:14:34 INFO  HelloWorld:46 - Start parse message by key = evening
+2017-07-07 15:14:34 INFO  HelloWorld:61 - Start getting resource bundle by locale = en_US
+2017-07-07 15:14:34 INFO  HelloWorld:63 - Success!
+2017-07-07 15:14:34 INFO  HelloWorld:50 - Start encoding received message
+2017-07-07 15:14:34 INFO  HelloWorld:52 - Success!
+2017-07-07 15:14:34 INFO  HelloWorld:56 - Success!
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 05:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:14:34 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 18:14:34 EEST 2017
+2017-07-07 15:14:34 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 20:16:01 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 19:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 11:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 12:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 09:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: day
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 00:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 08:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 22:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: evening
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 06:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: morning
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 23:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:16:02 INFO  HelloWorld:46 - Start parse message by key = evening
+2017-07-07 15:16:02 INFO  HelloWorld:61 - Start getting resource bundle by locale = en_US
+2017-07-07 15:16:02 INFO  HelloWorld:63 - Success!
+2017-07-07 15:16:02 INFO  HelloWorld:50 - Start encoding received message
+2017-07-07 15:16:02 INFO  HelloWorld:52 - Success!
+2017-07-07 15:16:02 INFO  HelloWorld:56 - Success!
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 05:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: night
+2017-07-07 15:16:02 INFO  HelloWorld:23 - Start parse key depends on time:
+ input data (time): Fri Jul 07 18:16:02 EEST 2017
+2017-07-07 15:16:02 INFO  HelloWorld:41 - Result key: day

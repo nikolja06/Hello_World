@@ -18,7 +18,7 @@ public class HelloWorldTest {
     public void setUp(){
         calendar = Calendar.getInstance();
         Locale.setDefault(new Locale("ru", "RU"));
-        resourceBundle = ResourceBundle.getBundle("ResourceMessage", Locale.getDefault());
+        resourceBundle = ResourceBundle.getBundle("ResourceMessage");
     }
 
     private String getEncodingMessage(String message){
@@ -31,61 +31,129 @@ public class HelloWorldTest {
     }
 
     @Test
-    public void testMorning() throws Exception {
+    public void test_getKey_Bottom_Line_Morning() throws Exception {
         calendar.set(Calendar.HOUR, 6);
         calendar.set(Calendar.AM_PM, 0);
-        Assert.assertEquals(getEncodingMessage(resourceBundle.getString("morning")), HelloWorld.welcomeMessage(calendar));
-
-        calendar.set(Calendar.HOUR, 9);
-        Assert.assertNotEquals(getEncodingMessage(resourceBundle.getString("morning")), HelloWorld.welcomeMessage(calendar));
-
-        calendar.set(Calendar.HOUR, 8);
-        calendar.set(Calendar.AM_PM, 1);
-        Assert.assertNotEquals(getEncodingMessage(resourceBundle.getString("morning")), HelloWorld.welcomeMessage(calendar));
+        Assert.assertEquals("morning", HelloWorld.getKey(calendar));
     }
 
     @Test
-    public void testDay() throws Exception {
+    public void test_getKey_Middle_Line_Morning() throws Exception {
+        calendar.set(Calendar.HOUR, 8);
+        calendar.set(Calendar.AM_PM, 0);
+        Assert.assertEquals("morning", HelloWorld.getKey(calendar));
+    }
+
+    @Test
+    public void test_getKey_Top_Line_Morning() throws Exception {
+        calendar.set(Calendar.HOUR, 8);
+        calendar.set(Calendar.AM_PM, 0);
+        Assert.assertEquals("morning", HelloWorld.getKey(calendar));
+    }
+
+    @Test
+    public void test_getKey_Bottom_Line_Day() throws Exception {
         calendar.set(Calendar.HOUR, 9);
         calendar.set(Calendar.AM_PM, 0);
-        Assert.assertEquals(getEncodingMessage(resourceBundle.getString("day")), HelloWorld.welcomeMessage(calendar));
+        Assert.assertEquals("day", HelloWorld.getKey(calendar));
+    }
 
+    @Test
+    public void test_getKey_Middle_Line_Day_PM() throws Exception {
+        calendar.set(Calendar.HOUR, 0);
         calendar.set(Calendar.AM_PM, 1);
-        Assert.assertNotEquals(getEncodingMessage(resourceBundle.getString("day")), HelloWorld.welcomeMessage(calendar));
+        Assert.assertEquals("day", HelloWorld.getKey(calendar));
+    }
 
+    @Test
+    public void test_getKey_Middle_Line_Day_AM() throws Exception {
+        calendar.set(Calendar.HOUR, 11);
+        calendar.set(Calendar.AM_PM, 0);
+        Assert.assertEquals("day", HelloWorld.getKey(calendar));
+    }
+
+    @Test
+    public void test_getKey_Middle_Line_Day_Negative() throws Exception {
         calendar.set(Calendar.HOUR, 0);
         calendar.set(Calendar.AM_PM, 0);
-        Assert.assertNotEquals(getEncodingMessage(resourceBundle.getString("day")), HelloWorld.welcomeMessage(calendar));
-
-        calendar.set(Calendar.AM_PM, 1);
-        Assert.assertEquals(getEncodingMessage(resourceBundle.getString("day")), HelloWorld.welcomeMessage(calendar));
-
-        calendar.set(Calendar.HOUR, 7);
-        Assert.assertNotEquals(getEncodingMessage(resourceBundle.getString("day")), HelloWorld.welcomeMessage(calendar));
+        Assert.assertNotEquals("day", HelloWorld.getKey(calendar));
     }
 
     @Test
-    public void testEvening() throws Exception {
+    public void test_getKey_Top_Line_Day() throws Exception {
+        calendar.set(Calendar.HOUR, 6);
+        calendar.set(Calendar.AM_PM, 1);
+        Assert.assertEquals("day", HelloWorld.getKey(calendar));
+    }
+
+    @Test
+    public void test_getKey_Bottom_Line_Evening() throws Exception {
         calendar.set(Calendar.HOUR, 7);
         calendar.set(Calendar.AM_PM, 1);
-        Assert.assertEquals(getEncodingMessage(resourceBundle.getString("evening")), HelloWorld.welcomeMessage(calendar));
+        Assert.assertEquals("evening", HelloWorld.getKey(calendar));
+    }
 
-        calendar.set(Calendar.HOUR, 11);
-        Assert.assertNotEquals(getEncodingMessage(resourceBundle.getString("evening")), HelloWorld.welcomeMessage(calendar));
+    @Test
+    public void test_getKey_Middle_Line_Evening() throws Exception {
+        calendar.set(Calendar.HOUR, 8);
+        calendar.set(Calendar.AM_PM, 1);
+        Assert.assertEquals("evening", HelloWorld.getKey(calendar));
+    }
 
-        calendar.set(Calendar.AM_PM, 0);
-        Assert.assertNotEquals(getEncodingMessage(resourceBundle.getString("evening")), HelloWorld.welcomeMessage(calendar));
-
+    @Test
+    public void test_getKey_Top_Line_Evening() throws Exception {
         calendar.set(Calendar.HOUR, 10);
         calendar.set(Calendar.AM_PM, 1);
-        Assert.assertEquals(getEncodingMessage(resourceBundle.getString("evening")), HelloWorld.welcomeMessage(calendar));
+        Assert.assertEquals("evening", HelloWorld.getKey(calendar));
     }
 
     @Test
-    public void testNight() throws Exception {
+    public void test_getKey_Bottom_Line_Night() throws Exception {
         calendar.set(Calendar.HOUR, 11);
         calendar.set(Calendar.AM_PM, 1);
-        Assert.assertEquals(getEncodingMessage(resourceBundle.getString("night")), HelloWorld.welcomeMessage(calendar));
+        Assert.assertEquals("night", HelloWorld.getKey(calendar));
+    }
+
+    @Test
+    public void test_getKey_Middle_Line_Night() throws Exception {
+        calendar.set(Calendar.HOUR, 0);
+        calendar.set(Calendar.AM_PM, 0);
+        Assert.assertEquals("night", HelloWorld.getKey(calendar));
+    }
+
+    @Test
+    public void test_getKey_Top_Line_Night() throws Exception {
+        calendar.set(Calendar.HOUR, 5);
+        calendar.set(Calendar.AM_PM, 0);
+        Assert.assertEquals("night", HelloWorld.getKey(calendar));
+    }
+
+    @Test
+    public void test_getMessage_Morning(){
+        Locale.setDefault(Locale.US);
+        resourceBundle = ResourceBundle.getBundle("ResourceMessage");
+        Assert.assertEquals("Good morning, World!!!", resourceBundle.getString("morning"));
+    }
+
+    @Test
+    public void test_getMessage_Day(){
+        Locale.setDefault(Locale.US);
+        resourceBundle = ResourceBundle.getBundle("ResourceMessage");
+        Assert.assertEquals("Good day, World!!!", resourceBundle.getString("day"));
+    }
+
+    @Test
+    public void test_getMessage_Evening(){
+        Locale.setDefault(Locale.US);
+        resourceBundle = ResourceBundle.getBundle("ResourceMessage");
+        Assert.assertEquals("Good evening, World!!!", resourceBundle.getString("evening"));
+    }
+
+    @Test
+    public void test_getMessage_Night(){
+        Locale.setDefault(Locale.US);
+        resourceBundle = ResourceBundle.getBundle("ResourceMessage");
+        Assert.assertEquals("Good night, World!!!", resourceBundle.getString("night"));
     }
 
     @Test
@@ -100,9 +168,9 @@ public class HelloWorldTest {
     @Test
     public void testNotExistLocale(){
         Locale.setDefault(new Locale("en","GB"));
+        resourceBundle = ResourceBundle.getBundle("ResourceMessage");
         calendar.set(Calendar.HOUR, 11);
         calendar.set(Calendar.AM_PM, 1);
-        resourceBundle = HelloWorld.getResourceBundle();
         Assert.assertEquals("Good evening, World!!!", resourceBundle.getString("evening"));
     }
 }

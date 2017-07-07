@@ -3,17 +3,16 @@ package com.company;
 import org.apache.log4j.Logger;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Calendar;
-import java.util.Locale;
-import java.util.MissingResourceException;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class HelloWorld {
 
     private static final Logger log = Logger.getLogger(HelloWorld.class.getName());
+    private static Calendar calendar;
 
-    public static String welcomeMessage(Calendar calendar) throws UnsupportedEncodingException {
+    public static String welcomeMessage() throws UnsupportedEncodingException {
         log.info("Start getting welcome message");
+        calendar = Calendar.getInstance();
         String message = getMessage(getKey(calendar));
         log.info("Success");
 
@@ -45,29 +44,24 @@ public class HelloWorld {
 
     public static String getMessage(String key) {
         log.info("Start parse message by key = " + key);
+        String message = getResourceBundle().getString(key);
         String result = null;
         try {
-            ResourceBundle resourceBundle = getResourceBundle();
-            String message = resourceBundle.getString(key);
+            log.info("Start encoding received message");
             result = new String(message.getBytes("ISO-8859-1"), "UTF-8");
             log.info("Success!");
-        }catch (Exception e){
-            log.error(e.getMessage());
+        } catch (UnsupportedEncodingException e) {
+            log.error(e);
         }
+        log.info("Success!");
         return result;
     }
 
     public static ResourceBundle getResourceBundle(){
-        ResourceBundle resourceBundle;
-        log.info("Start parse ResourceBundle by locale = " + Locale.getDefault());
-        try {
-            resourceBundle = ResourceBundle.getBundle("ResourceMessage", Locale.getDefault());
-            log.info("Success!");
-        }catch (NullPointerException | MissingResourceException e){
-            log.error("ResourceBundle not found by locale = " + Locale.getDefault() + "\nwill return message for default locale = en_US");
-            Locale.setDefault(new Locale("en", "US"));
-            resourceBundle = ResourceBundle.getBundle("ResourceMessage", Locale.getDefault());
-        }
-        return resourceBundle;
+        log.info("Start getting resource bundle by locale = " + Locale.getDefault());
+        ResourceBundle bundle = ResourceBundle.getBundle("ResourceMessage");
+        log.info("Success!");
+        return bundle;
     }
+
 }

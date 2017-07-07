@@ -11,9 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
         log.info("Start program");
-
-        Calendar calendar = Calendar.getInstance();
-        System.out.println(HelloWorld.welcomeMessage(calendar));
+        System.out.println(HelloWorld.welcomeMessage());
 
         log.info("Finish program\n");
     }
